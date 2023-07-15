@@ -13,6 +13,7 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
+    <link rel="stylesheet" href="css/gallery.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <title>My Webpage</title>
 </head>
@@ -35,17 +36,17 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="register.html">Register Now</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Services
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Discounted Gears</a>
+                <a class="dropdown-item" href="#">Fresh Laptops</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Membership</a>
               </div>
             </li>
             <li class="nav-item">
@@ -85,6 +86,214 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+
+      <section class="portfolio ">
+        <div class="container">
+          <div class="row mb-5">
+                <div class="col-10">
+                  <div class="btn-group btn-group-toggle " data-toggle="buttons">
+                    <label class="btn active ">
+                      <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Brands
+                    </label>
+                    <label class="btn">
+                      <input type="radio" name="shuffle-filter" value="design" />Gaming
+                    </label>
+                    <label class="btn">
+                      <input type="radio" name="shuffle-filter" value="branding" />Productivity
+                    </label>
+                    <label class="btn">
+                      <input type="radio" name="shuffle-filter" value="illustration" />Web Development
+                    </label>
+                     <label class="btn">
+                      <input type="radio" name="shuffle-filter" value="photo" />Accessories
+                    </label>
+                  </div>
+                </div>
+            </div>	
+      
+          <div class="row shuffle-wrapper portfolio-gallery">
+              <div class="col-lg-4 col-6 mb-4 shuffle-item"  data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
+                  <div class="position-relative inner-box">
+                    <div class="image position-relative ">
+                       <img src="https://www.myfixguide.com/wp-content/uploads/2022/09/lenovo-legion-7-gen7-.jpg" alt="Legion 7 Gen 7 (2022)" class="img-fluid w-100 d-block">
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <a class="overlay-content" href="portfolio-single.html">
+                              <h5 class="mb-0">Legion 7 Gen 7 AMD (2022)</h5>
+                              <p>Lenovo</p>
+                            </a>
+                          </div>
+                        </div> 
+                    </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-5 col-4 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
+                <div class="position-relative inner-box" >
+                    <div class="image position-relative ">
+                       <img src="https://gebhaly.com/api/backoffice/resources/articleImage/62c1c8f9602809f25d3cfda1" alt="Macbook Pro 13 2022" class="img-fluid w-100 d-block">
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                              <a class="overlay-content" href="portfolio-single.html">
+                                <h5 class="mb-0">Macbook Pro 13 (2022)</h5>
+                                <p>Apple</p>
+                              </a>
+                          </div> 
+                      </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-5 col-4 mb-6 shuffle-item" data-groups="[&quot;illustration&quot;]">
+                <div class="position-relative inner-box">
+                    <div class="image position-relative ">
+                       <img src="https://gamerbraves.sgp1.cdn.digitaloceanspaces.com/2022/07/predator-helios-300-2022.jpg" alt="Acer Predator Helios 300 (2022)" class="img-fluid w-100 d-block">
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <a class="overlay-content" href="portfolio-single.html">
+                              <h5 class="mb-0">Predator Helios 300 (2022) </h5>
+                              <p>Acer</p>
+                            </a>
+                          </div>
+                        </div> 
+                    </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
+                <div class="position-relative inner-box">
+                    <div class="image position-relative ">
+                       <img src="https://root-nation.com/wp-content/uploads/2022/11/rog-strix-scar-17.jpeg" alt="Asus Rog Strix Scar 17 SE (2022)" class="img-fluid w-100 d-block">
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <a class="overlay-content" href="portfolio-single.html">
+                              <h5 class="mb-0">Rog Strix Scar 17 SE (2022)</h5>
+                              <p>Asus</p>
+                            </a>
+                          </div>
+                        </div> 
+                    </div>
+                </div>
+              </div>
+            <br>
+      
+              <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]" style="margin-top: 40px;">
+                <div class="position-relative inner-box">
+                    <div class="image position-relative ">
+                       <img src="https://f5t5h2w6.rocketcdn.me/wp-content/uploads/2022/05/Dell-XPS-9510-i9.jpg" alt="Dell XPS 9510 INTEL" class="img-fluid w-100 d-block">
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <a class="overlay-content" href="portfolio-single.html">
+                               <h5 class="mb-0 ">XPS 9510 INTEL</h5>
+                                <p>Dell</p>
+                            </a>
+                          </div>
+                        </div> 
+                    </div>
+                </div>
+              </div>
+      
+              <!-- <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                <div class="position-relative inner-box">
+                    <div class="image position-relative ">
+                       <img src="#" alt="portfolio-image" class="img-fluid w-100 d-block">
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <a class="overlay-content" href="portfolio-single.html">
+                               <h5 class="mb-0">Agency web</h5>
+                                <p>Design</p>
+                            </a>
+                          </div>
+                        </div> 
+                    </div>
+                </div>
+              </div> -->
+            </div>
+        </div>
+      </section>
+      <!-- Portfolio End -->
+      
+      <!-- Service start -->
+      <section class="section service-home border-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="mb-2 ">Core Services.</h2>
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem in, blanditiis.</p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="service-item mb-5" data-aos="fade-left" >
+                <i class="ti-layout"></i>
+                <h4 class="my-3">Web Development</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="service-item mb-5" data-aos="fade-left"  data-aos-delay="450">
+                <i class="ti-announcement"></i>
+                <h4 class="my-3">Digital Marketing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="service-item mb-5 mb-lg-0" data-aos="fade-left"  data-aos-delay="750">
+                <i class="ti-layers"></i>
+                <h4 class="my-3">Graphics Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="service-item" data-aos="fade-left"  data-aos-delay="750">
+                <i class="ti-anchor"></i>
+                <h4 class="my-3">Branding Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="service-item mb-5" data-aos="fade-left"  data-aos-delay="950">
+                <i class="ti-video-camera"></i>
+                <h4 class="my-3">Video Marketing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="service-item mb-5 mb-lg-0" data-aos="fade-left"  data-aos-delay="1050">
+                <i class="ti-android"></i>
+                <h4 class="my-3">App Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- service end -->
+      
+      <!-- Footer start -->
+      <section class="footer">
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-6">
+              <p class="mb-0">Copyrights © 2019. Designed & Developed by <a href="themefisher.com" class="text-white">Themefisher</a></p>
+            </div>
+            <div class="col-lg-6">
+              <div class="widget footer-widget text-lg-right mt-5 mt-lg-0">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item"><a href="https://www.facebook.com/themefisher" target="_blank"><i class="ti-facebook mr-3"></i></a>
+                  </li>
+                  <li class="list-inline-item"><a href="https://twitter.com/themefisher" target="_blank"><i class="ti-twitter mr-3"></i></a>
+                  </li>
+                  <li class="list-inline-item"><a href="https://github.com/themefisher/" target="_blank"><i class="ti-github mr-3"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/" target="_blank"><i class="ti-pinterest mr-3"></i></a></li>
+                  <li class="list-inline-item"><a href="https://dribbble.com/themefisher/" target="_blank"><i class="ti-dribbble mr-3"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
